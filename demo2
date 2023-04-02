@@ -1,0 +1,8 @@
+#!/bin/bash
+cd 1/
+ls
+echo "Done"
+touch zzzz
+echo "how are you" >> zzzz
+cat zzzz
+echo "done"
