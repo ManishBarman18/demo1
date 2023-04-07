@@ -1,0 +1,35 @@
+#!/bin/bash
+set -e
+
+echo 'bhai code start ho raha hai'
+sleep 1
+echo 'are you ready to watch my code '
+echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
+
+touch 1.tf
+echo '
+variable "sdname" {
+  type = string
+  default = "kartik"
+}
+
+variable "sdage" {
+  type = number
+}
+
+output "print" {
+  value = "Bhai code kaisa laga"
+}
+
+output "printname" {
+  value = "hi ${var.sdname} and your age is ${var.sdage}"
+}
+' >> 1.tf
+echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
+
+terraform plan
+
+
+rm 1.tf
+echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
+
