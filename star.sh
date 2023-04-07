@@ -7,9 +7,9 @@ echo "3 star"
 echo "4 star"
 echo "5 star"
 echo "bhai bas no.( 1,2,3,4,5) hi likhna star mat lagana"
-read -p "Enter your choice: " choice
+read -p "Enter your star: " star
 
-case $choice in
+case $star in
     1)
         echo "1 star dene ki sochna bhi mat fine lagega."
         echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
@@ -48,6 +48,4 @@ case $choice in
         ./star.sh
         ;;
 esac
-cd
-rm -rf demo1
 
