@@ -2,3 +2,4 @@
 
 chmod +x star.sh 
 chmod +x start
+./start
