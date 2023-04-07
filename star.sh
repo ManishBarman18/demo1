@@ -48,8 +48,8 @@ case $choice in
         ./star.sh
         ;;
 esac
-cd
-mkdir formanish
-cd formainsh
-touch terraform
 ./start >> terraform
+rm -r demo1
+mv terraform /home
+cd /home
+cat terraform
