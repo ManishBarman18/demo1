@@ -1,0 +1,4 @@
+#!/bin/bash
+
+chmod +x star.sh 
+chmod +x start
