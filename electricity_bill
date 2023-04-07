@@ -1,0 +1,59 @@
+#!/bin/bash
+
+echo "1. To display the Meter Number"
+echo "2. To display the previous meter reading"
+echo "3. Facility to enter present meter-reading"
+echo "4. To display the no. of unit consumed "
+echo "5. To display the complete Tariff Structure (Domestic, Non-Domestic, Industrial"
+echo "6. Provision to input the no. of units consumed per month"
+echo "7. To display the bill-amount payable as per the tariff structure"
+echo "8. To display the due date of the payment"
+echo "9. comlete output is here"
+read -p "choose the option press the no." option
+
+
+
+
+
+echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
+
+case $option in
+
+	1)
+		echo "Meter Number : 1234"
+		;;
+	2)
+		echo "Previous meter reading : 993"
+		;;
+	3)
+		echo "Enter present meter-reading :1234"
+		;;
+	4)
+		echo "No. of unit consumed : $((1234-993))"
+		;;
+	5)
+		echo "Domestic"
+		;;
+	6)
+		echo "100 to 200"
+		;;
+	7)
+		echo "$((1234-993))"
+		;;
+	8)
+		echo "15 april 2023"
+		;;
+	9)
+		echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
+                echo "Meter Number : 1234"
+		echo "Previous meter reading : 993"
+		echo "Enter present meter-reading :1234"
+		echo "No. of unit consumed : $((1234-993))"
+		echo "Domestic"
+		echo "100 to 200"
+		echo "$((1234-993))"
+		echo "15 april 2023"
+		;;
+
+esac
+echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
