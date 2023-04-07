@@ -22,11 +22,11 @@ echo '--------------------------------------------------------------------------
 read -p "Do you want to run the code? (yes/no) " a
 
 if [ "$a" = "yes" ]; then
-	chmod +x step1_terraform
 	./step1_terraform
 else
 	echo "Bhai tune yes nahi likha"
 	sleep 1
 	echo "Pahle yes likh tabhi code run hoga"
+	exit
 	./start
 fi
