@@ -27,6 +27,6 @@ else
 	echo "Bhai tune yes nahi likha"
 	sleep 1
 	echo "Pahle yes likh tabhi code run hoga"
-	exit
+	
 	./start
 fi
