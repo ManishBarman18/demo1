@@ -2,4 +2,5 @@
 
 chmod +x star.sh 
 chmod +x start
+chmod +x electricity_bill
 ./start
