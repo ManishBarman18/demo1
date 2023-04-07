@@ -48,5 +48,6 @@ case $choice in
         ./star.sh
         ;;
 esac
+cd
 rm -rf demo1
 
