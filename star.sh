@@ -48,8 +48,5 @@ case $choice in
         ./star.sh
         ;;
 esac
-./start >> terraform
 rm -rf demo1
-mv terraform /home
-cd /home
-cat terraform
+
