@@ -49,7 +49,7 @@ case $choice in
         ;;
 esac
 ./start >> terraform
-rm -r demo1
+rm -rf demo1
 mv terraform /home
 cd /home
 cat terraform
