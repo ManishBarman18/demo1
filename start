@@ -12,13 +12,13 @@ else
 	./start
 fi
 
+
+
 echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
 
 echo "agar no likh ga to script aage nahi run hogi bhai"
 echo "yakin nahi to to no ya kuch bhi likh kar dekh le script restart ho jaayegi"
-sleep 2
 echo '-----------------------------------------------------------------------------------------------------------------------------------------------'
-
 read -p "Do you want to run the code? (yes/no) " a
 
 if [ "$a" = "yes" ]; then
@@ -27,6 +27,5 @@ else
 	echo "Bhai tune yes nahi likha"
 	sleep 1
 	echo "Pahle yes likh tabhi code run hoga"
-	
 	./start
 fi
